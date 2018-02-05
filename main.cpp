@@ -15,7 +15,7 @@ int main() {
             SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
             SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 
-    if (window == NULL) {
+    if (window == nullptr) {
         SDL_Quit();
         return 2;
     }
